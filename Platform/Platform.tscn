@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dlgdo1eum6chy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3daxb"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qfcu1"]
+resource_local_to_scene = true
+load_path = "res://.godot/imported/icon.svg-74f3589231f7072301ca5b67d1e51c42.ctex"
+
+[node name="Platform" type="StaticBody2D" unique_id=723488021]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=386985305]
+shape = SubResource("RectangleShape2D_3daxb")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1050000518]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1833464892]
+position = Vector2(1.9999981, -3.8146973e-06)
+scale = Vector2(0.45312503, 0.21093749)
+texture = SubResource("CompressedTexture2D_qfcu1")

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://b82vc1vj8d52y"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3daxb"]
+
+[node name="Platform" type="StaticBody2D" unique_id=791134367]
+
+[node name="ChiliBean" type="CharacterBody2D" parent="." unique_id=534025892]
+
+[node name="Sprite2D" type="Sprite2D" parent="ChiliBean" unique_id=441304340]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ChiliBean" unique_id=1032007555]
+shape = SubResource("CapsuleShape2D_3daxb")
+debug_color = Color(0.8509804, 0.29411766, 0.972549, 0.41960785)
